@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/printingshop.github.io/static/css/main.77fc7b88.css",
-    "main.js": "/printingshop.github.io/static/js/main.de24029f.js",
+    "main.js": "/printingshop.github.io/static/js/main.a098cb11.js",
     "static/media/img-2.jpg": "/printingshop.github.io/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-13.jpg": "/printingshop.github.io/static/media/img-13.69ab8b37b8947bc6b287.jpg",
     "static/media/img-3.jpg": "/printingshop.github.io/static/media/img-3.6d683c0ee6824af7961a.jpg",
@@ -9,10 +9,10 @@
     "static/media/img-8.jpg": "/printingshop.github.io/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
     "index.html": "/printingshop.github.io/index.html",
     "main.77fc7b88.css.map": "/printingshop.github.io/static/css/main.77fc7b88.css.map",
-    "main.de24029f.js.map": "/printingshop.github.io/static/js/main.de24029f.js.map"
+    "main.a098cb11.js.map": "/printingshop.github.io/static/js/main.a098cb11.js.map"
   },
   "entrypoints": [
     "static/css/main.77fc7b88.css",
-    "static/js/main.de24029f.js"
+    "static/js/main.a098cb11.js"
   ]
 }
