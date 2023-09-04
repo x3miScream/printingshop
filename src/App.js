@@ -14,6 +14,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' exact element={<Home></Home>}></Route>
+          <Route path='/printingshop.github.io' exact element={<Home></Home>}></Route>
           <Route path='/Services' exact element={<Services></Services>}></Route>
           <Route path='/Products' exact element={<Products></Products>}></Route>
           <Route path='/ContactUs' exact element={<ContactUs></ContactUs>}></Route>
