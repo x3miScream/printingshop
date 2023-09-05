@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Home",
+        "path": "/",
+        "element": "Home",
+        "isShowMenu": true
+    },
+    {
+        "name": "Services",
+        "path": "/Services",
+        "element": "Services",
+        "isShowMenu": true
+    },
+    {
+        "name": "Products",
+        "path": "/Products",
+        "element": "Products",
+        "isShowMenu": true
+    },
+    {
+        "name": "ContactUs",
+        "path": "/ContactUs",
+        "element": "ContactUs",
+        "isShowMenu": true
+    }
+    ,
+    {
+        "name": "Sing Up",
+        "path": "/sign-up",
+        "element": "SingUp",
+        "isShowMenu": false
+    }
+]

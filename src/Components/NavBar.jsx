@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import Button from './Button.jsx';
 import '../Styles/NavBar.css';
+import menuLinks from '../Data/MenuLinks.json';
+import settings from '../Data/Settings.json';
 
 const NavBar = () => {
     const [isClicked, setIsClicked] = useState(false);
@@ -43,26 +45,7 @@ const NavBar = () => {
                         <i className={isClicked ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={isClicked ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                                Home
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/Services' className='nav-links' onClick={closeMobileMenu}>
-                                Services
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/Products' className='nav-links' onClick={closeMobileMenu}>
-                                Products
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/ContactUs' className='nav-links' onClick={closeMobileMenu}>
-                                Contact Us
-                            </Link>
-                        </li>
+                        {menuLinks.map((item, index) => {return item.isShowMenu ? <li className='nav-item'><Link to={settings.hostingBaseUrl + item.path} className='nav-links' onClick={closeMobileMenu}>{item.name}</Link></li> : ''})}
                         {/* <li className='nav-item'>
                             <Link to='/sing-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Sing Up
