@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/printingshop.github.io/static/css/main.5e1d7de4.css",
-    "main.js": "/printingshop.github.io/static/js/main.a098cb11.js",
-    "static/media/img-2.jpg": "/printingshop.github.io/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
-    "static/media/img-13.jpg": "/printingshop.github.io/static/media/img-13.69ab8b37b8947bc6b287.jpg",
-    "static/media/img-3.jpg": "/printingshop.github.io/static/media/img-3.6d683c0ee6824af7961a.jpg",
-    "static/media/img-1.jpg": "/printingshop.github.io/static/media/img-1.53f4843759ebec256cb9.jpg",
-    "static/media/img-8.jpg": "/printingshop.github.io/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
-    "index.html": "/printingshop.github.io/index.html",
-    "main.5e1d7de4.css.map": "/printingshop.github.io/static/css/main.5e1d7de4.css.map",
-    "main.a098cb11.js.map": "/printingshop.github.io/static/js/main.a098cb11.js.map"
+    "main.css": "/static/css/main.9934d947.css",
+    "main.js": "/static/js/main.a098cb11.js",
+    "static/media/img-2.jpg": "/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/img-13.jpg": "/static/media/img-13.69ab8b37b8947bc6b287.jpg",
+    "static/media/img-3.jpg": "/static/media/img-3.6d683c0ee6824af7961a.jpg",
+    "static/media/img-1.jpg": "/static/media/img-1.53f4843759ebec256cb9.jpg",
+    "static/media/img-8.jpg": "/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "index.html": "/index.html",
+    "main.9934d947.css.map": "/static/css/main.9934d947.css.map",
+    "main.a098cb11.js.map": "/static/js/main.a098cb11.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e1d7de4.css",
+    "static/css/main.9934d947.css",
     "static/js/main.a098cb11.js"
   ]
 }
