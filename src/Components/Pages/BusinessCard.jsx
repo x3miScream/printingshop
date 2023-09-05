@@ -8,7 +8,7 @@ const BusinessCard = () => {
             <div className='business-card'>
                 <div className='business__card__container'>
                     <div className='business__card__img__section'>
-                        <img src={settings.hostingBaseUrl + './Images/img-9.jpg'} className='business__card__img'></img>
+                        <img src={settings.hostingBaseUrl + '/Images/img-9.jpg'} className='business__card__img'></img>
                     </div>
                     <div className='biness__card__info__section'>
                         <h4 className='text__md'>Printing Design Services</h4>
