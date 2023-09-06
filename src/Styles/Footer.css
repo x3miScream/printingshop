@@ -124,6 +124,7 @@
 @media screen and (max-width: 820px) {
     .footer-links {
         padding-top: 2rem;
+        flex-direction: column;
     }
 
     .btn{
@@ -131,7 +132,7 @@
     }
 
     .footer-link-wrapper {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .social-media-wrap {
@@ -140,7 +141,7 @@
 
     .footer-link-items
     {
-        margin: unset;
+        margin: 1rem;
         width: unset;
     }
 }
