@@ -125,6 +125,7 @@
     .footer-links {
         padding-top: 2rem;
         flex-direction: column;
+        align-items: center;
     }
 
     .btn{
