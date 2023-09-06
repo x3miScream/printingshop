@@ -32,17 +32,6 @@
     font-size: 20px;
 }
 
-.footer-input {
-    padding: 8px 20px;
-    border-radius: 2px;
-    margin-right: 10px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    margin-bottom: 16px;
-    border: 1px solid #fff;
-}
-
 .footer-links {
     width: 100%;
     max-width: 1000px;
@@ -85,10 +74,6 @@
 
 .footer-email-form h2 {
     margin-bottom: 32px;
-}
-
-.footer-input::placeholder {
-    color: #b1b1b1;
 }
 
 /*Social Icons*/
@@ -141,10 +126,6 @@
         padding-top: 2rem;
     }
 
-    .footer-input {
-        width: 100%;
-    }
-
     .btn{
         width: 100%;
     }
@@ -155,5 +136,11 @@
 
     .social-media-wrap {
         flex-direction: column;
+    }
+
+    .footer-link-items
+    {
+        margin: unset;
+        width: unset;
     }
 }

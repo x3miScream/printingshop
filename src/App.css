@@ -11,7 +11,7 @@
 .contact-us,
 .business-card,
 .testimonials,
-.call-to-aciton,
+.call-to-action,
 .sign-up {
   display: flex;
   height: 100vh;
@@ -44,7 +44,8 @@
 }
 
 .products {
-  background-image: url('../public/Images/img-1.jpg');
+  /* background-image: url('../public/Images/img-1.jpg'); */
+  background-color: #fff;
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -102,6 +103,23 @@
   color: #fff;
   font-size: 100px;
 }
+
+
+.text-input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+.text-input::placeholder {
+    color: #b1b1b1;
+}
+
 
 .text__md {
   font-size: 46px;

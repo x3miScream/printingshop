@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavBar />
+        <NavBar/>
         <Routes>
           {menuLinks.map((item, index) => {return <Route path={settings.hostingBaseUrl + item.path} exact element={componentsRegistry[item.element]}></Route>})}
         </Routes>

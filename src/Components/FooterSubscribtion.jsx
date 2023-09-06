@@ -12,7 +12,7 @@ const FooterSubscribtion = () => {
             </p>
             <div className='input-area'>
                 <form>
-                <input type='email' name='email' placeholder='Your Emails' className='footer-input'></input>
+                <input type='email' name='email' placeholder='Your Emails' className='text-input'></input>
                 <Button buttonStyle='btn--outline'>Subscribe</Button>
                 </form>
             </div>
