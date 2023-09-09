@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/printingshop/static/css/main.d19b385f.css",
-    "main.js": "/printingshop/static/js/main.0cb7a34f.js",
+    "main.css": "/printingshop/static/css/main.e4259489.css",
+    "main.js": "/printingshop/static/js/main.2ba501bd.js",
     "static/media/img-2.jpg": "/printingshop/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-13.jpg": "/printingshop/static/media/img-13.69ab8b37b8947bc6b287.jpg",
     "static/media/img-3.jpg": "/printingshop/static/media/img-3.6d683c0ee6824af7961a.jpg",
     "static/media/img-8.jpg": "/printingshop/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
     "index.html": "/printingshop/index.html",
-    "main.d19b385f.css.map": "/printingshop/static/css/main.d19b385f.css.map",
-    "main.0cb7a34f.js.map": "/printingshop/static/js/main.0cb7a34f.js.map"
+    "main.e4259489.css.map": "/printingshop/static/css/main.e4259489.css.map",
+    "main.2ba501bd.js.map": "/printingshop/static/js/main.2ba501bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.d19b385f.css",
-    "static/js/main.0cb7a34f.js"
+    "static/css/main.e4259489.css",
+    "static/js/main.2ba501bd.js"
   ]
 }
