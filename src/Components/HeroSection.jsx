@@ -17,10 +17,10 @@ const HeroSection = () => {
             <h1>L PRINT</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' onclick={handleGetAQuoteClick} link='#'>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' onclick={handleGetAQuoteClick} link='#' isLink={true}>
                         GET A QUOTE
                 </Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' isLink={true}>
                         CONTACT US
                 </Button>
             </div>

@@ -5,7 +5,7 @@ import '../../Styles/Products.css';
 const Products = () => {
     return(
         <div className='products'>
-            <h6 className='text__md m-t-m'>
+            <h6 className='section-header text__md m-t-m'>
                 CHECK OUT OUR SERVICES
             </h6>
             <Cards />

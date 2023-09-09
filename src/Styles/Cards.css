@@ -2,6 +2,7 @@
   padding-top: 2rem;
   padding-bottom: 4rem;
   background: #fff;
+  width: 100%;
 }
 
 h1 {
@@ -23,14 +24,19 @@ h1 {
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .cards__item {
   display: flex;
   flex: 1;
   margin: 0 1rem;
+  margin-bottom: 2rem;
   border-radius: 10px;
+  min-width: 310px;
+  max-width: 310px;
 }
 
 .cards__item__link {
@@ -109,11 +115,13 @@ h1 {
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
+    flex-direction: row;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
-    margin-bottom: 2rem;
+    min-width: unset;
+    max-width: unset;
   }
 }

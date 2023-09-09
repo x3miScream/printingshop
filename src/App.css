@@ -105,6 +105,13 @@
 }
 
 
+.section-header {
+  text-align: center;
+  color: gray;
+  font-size: 100px;
+}
+
+
 .text-input {
   padding: 8px 20px;
   border-radius: 2px;
@@ -114,6 +121,7 @@
   font-size: 18px;
   margin-bottom: 16px;
   border: 1px solid #fff;
+  width: 100%;
 }
 
 .text-input::placeholder {
@@ -159,11 +167,7 @@
   .testimonials,
   .call-to-aciton,
   .sign-up {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
-/*   
-  .business-card {
-    height: 80vh;
-  } */
 }
