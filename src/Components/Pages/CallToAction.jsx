@@ -11,9 +11,7 @@ const CallToAction = (props) => {
     return(
     <>
         <div className='call-to-action' id='callToActionSection'>
-            {/* <h6 className='text__md'>
-                GET A QUOTE
-            </h6> */}
+        {isStandAlone ? <h6 className='text__md m-t-m'>GET A QUOTE</h6> : null}
             <div className='call-to-action-info'>
                 <div className='call-to-action-info-img-section'>
                     <img src={settings.hostingBaseUrl + '/Images/img-20.jpg'} className='call__to__action__img'></img>

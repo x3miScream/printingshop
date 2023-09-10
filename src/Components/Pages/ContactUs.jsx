@@ -9,13 +9,13 @@ const ContactUs = (props) => {
         <React.Fragment>
             <div className='contact-us'>
                 <h6 className='section-header text__md m-t-m'>
-                    Contact Us
+                    CONTACT US
                 </h6>
                 <div className='contact__us__content'>
-                    <div className='contact__us__info_section'>
+                    <div className='contact__us__info__section'>
 
                     </div>
-                    <div className='contact__us__navigation_section'>
+                    <div className='contact__us__navigation__section'>
 
                     </div>
                 </div>
