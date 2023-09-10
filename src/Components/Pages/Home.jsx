@@ -16,7 +16,7 @@ const Home = () => {
             <BusinessCard />
             <Testimonials />
             <CallToAction />
-            <Footer />
+            <Footer isShowSubscribtion={false} isShowLinks={false} isShowSocials={true} isStandAlone={false}/>
         </>
     )
 }

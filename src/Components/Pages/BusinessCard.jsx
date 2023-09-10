@@ -1,8 +1,10 @@
 import React from 'react';
+import Footer from '../Footer.jsx';
 import '../../Styles/BusinessCard.css';
 import settings from '../../Data/Settings.json'
 
-const BusinessCard = () => {
+const BusinessCard = (props) => {
+    const {isStandAlone} = props;
     return(
         <>
             <div className='business-card'>
@@ -22,6 +24,8 @@ const BusinessCard = () => {
                     </div>
                 </div>
             </div>
+
+            {isStandAlone ? <Footer isShowLinks={false} isShowSocials={true} isStandAlone={true}/> : null}
         </>
     );
 };

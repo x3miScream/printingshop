@@ -5,6 +5,15 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+html {
+  background-color:#F8F8F8;
+}
+
+.app-body{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
 .home,
 .services,
 .products,
@@ -87,12 +96,14 @@
 }
 
 .contact-us {
-  background-image: url('../public/Images/img-3.jpg');
+  /* background-image: url('../public/Images/img-3.jpg'); */
+  background-color:#F8F8F8;
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: gray;
   font-size: 100px;
+  height: unset;
 }
 
 .sign-up {
@@ -115,7 +126,7 @@
 .text-input {
   padding: 8px 20px;
   border-radius: 2px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   outline: none;
   border: none;
   font-size: 18px;
@@ -155,6 +166,12 @@
 .m-t-s
 {
   margin-top: 1rem;
+}
+
+
+.divider-solid {
+  border-top: 3px solid #bbb;
+  width: 100%;
 }
 
 

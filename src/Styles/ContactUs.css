@@ -1,0 +1,17 @@
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__us__content{
+    display: flex;
+}
+
+.contact__us__info__section {
+    
+}
+
+.contact__us__navigation__section {
+    
+}

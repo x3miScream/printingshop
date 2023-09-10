@@ -8,13 +8,25 @@
     {
         "name": "Services",
         "path": "/Services",
-        "element": "Services",
+        "element": "Products",
+        "isShowMenu": true
+    },
+    {
+        "name": "About Us",
+        "path": "/AboutUs",
+        "element": "BusinessCard",
         "isShowMenu": true
     },
     {
         "name": "Products",
         "path": "/Products",
         "element": "Products",
+        "isShowMenu": false
+    },
+    {
+        "name": "Request Quotation",
+        "path": "/RequestQuotation",
+        "element": "CallToAction",
         "isShowMenu": true
     },
     {
@@ -22,8 +34,7 @@
         "path": "/ContactUs",
         "element": "ContactUs",
         "isShowMenu": true
-    }
-    ,
+    },
     {
         "name": "Sing Up",
         "path": "/sign-up",
