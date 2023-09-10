@@ -1,17 +1,18 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection.jsx';
-import Cards from '../Cards.jsx';
 import Footer from '../Footer.jsx';
 import BusinessCard from './BusinessCard.jsx';
 import Testimonials from './Testimonials.jsx';
 import CallToAction from './CallToAction.jsx';
 import Products from './Products.jsx';
 
-const Home = () => {
+const Home = (props) => {
+    const {scrollToHandler} = props;
+
     return(
         <>
-            <HeroSection></HeroSection>
+            <HeroSection scrollToHandler={scrollToHandler}></HeroSection>
             <Products></Products>
             <BusinessCard />
             <Testimonials />

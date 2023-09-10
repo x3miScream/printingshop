@@ -30,7 +30,7 @@
         "isShowMenu": true
     },
     {
-        "name": "ContactUs",
+        "name": "Contact Us",
         "path": "/ContactUs",
         "element": "ContactUs",
         "isShowMenu": true

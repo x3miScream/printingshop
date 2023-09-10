@@ -6,11 +6,11 @@ import Footer from '../Footer.jsx';
 import settings from '../../Data/Settings.json'
 
 const CallToAction = (props) => {
-    const {isStandAlone} = props;
-
+    const {ref, isStandAlone} = props;
+    
     return(
     <>
-        <div className='call-to-action' id='callToActionSection'>
+        <div className='call-to-action' ref={ref}>
         {isStandAlone ? <h6 className='text__md m-t-m'>GET A QUOTE</h6> : null}
             <div className='call-to-action-info'>
                 <div className='call-to-action-info-img-section'>

@@ -5,7 +5,7 @@ import '../Styles/Button.css';
 const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium', 'btn--large'];
 
-const Button = ({children, type, onClick, buttonStyle, buttonSize, link, isLink}) => {
+const Button = ({children, type, onclick, buttonStyle, buttonSize, link, isLink}) => {
     if(isLink === '')
         isLink = false;
 
@@ -18,15 +18,15 @@ const Button = ({children, type, onClick, buttonStyle, buttonSize, link, isLink}
             {(isLink ? 
                 <Link to={link} className='btn-mobile'>
                     <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-                    onClick={onclick}
-                    type={type}>
+                        onClick={onclick}
+                        type={type}>
                         {children}
                     </button>
                 </Link>
                  : 
                  <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-                    onClick={onclick}
-                    type={type}>
+                        onClick={onclick}
+                        type={type}>
                         {children}
                 </button>
                  )}
