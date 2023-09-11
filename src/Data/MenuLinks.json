@@ -24,6 +24,12 @@
         "isShowMenu": false
     },
     {
+        "name": "ProductItem",
+        "path": "/Item",
+        "element": "ProductItem",
+        "isShowMenu": false
+    },
+    {
         "name": "Request Quotation",
         "path": "/RequestQuotation",
         "element": "CallToAction",
