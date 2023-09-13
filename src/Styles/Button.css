@@ -25,6 +25,14 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--light--blue{
+    background-color: lightblue;
+    color: black;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
 .btn-medium{
     padding: 8px 20px;
     font-size: 20px;
@@ -37,6 +45,12 @@
 
 .btn-medium:hover, .btn--large:hover{
     background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.btn--light--blue:hover{
+    background: lightcyan;
     color: #242424;
     transition: all 0.3s ease-out;
 }

@@ -24,7 +24,7 @@ const CallToAction = (props) => {
                         <TextInput type='text' name='printSideOption' placeHolder='footer-input' className='text-input'></TextInput>
                         <TextInput type='text' name='paperType' placeHolder='PaperType' className='text-input'></TextInput>
 
-                        <Button buttonStyle='btn--primary'>Send Request</Button>
+                        <Button buttonStyle='btn--light--blue'>Send Request</Button>
                     </form>
                 </div>
             </div>

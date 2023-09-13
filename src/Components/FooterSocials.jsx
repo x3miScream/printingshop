@@ -1,12 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import settings from '../Data/Settings.json'
 
 const FooterSocials = () => {
     return(<>
         <section className='social-media'>
             <div className="social-media-wrap">
                 <div className="footer-logo">
-                    <Link to='/' className='social-logo'>
+                    <Link to={settings.hostingBaseUrl + '/'} className='social-logo'>
                         L PRINT <i className="fab fa-typeo3"></i>
                     </Link>
                 </div>
