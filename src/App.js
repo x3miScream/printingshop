@@ -10,6 +10,7 @@ import ContactUs from './Components/Pages/ContactUs.jsx';
 import SingUp from './Components/Pages/SingUp.jsx';
 import BusinessCard from './Components/Pages/BusinessCard.jsx';
 import CallToAction from './Components/Pages/CallToAction.jsx';
+import ScrollToTop from './Components/ScrollToTop.jsx';
 import menuLinks from './Data/MenuLinks.json';
 import settings from './Data/Settings.json'
 
@@ -36,9 +37,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <NavBar/>
         <Routes>
-          {menuLinks.map((item, index) => {return <Route path={settings.hostingBaseUrl + item.path} exact element={componentsRegistry[item.element]}></Route>})}
+          {menuLinks.map((item, index) => {return <Route key={index} path={settings.hostingBaseUrl + item.path} exact element={componentsRegistry[item.element]}></Route>})}
         </Routes>
       </BrowserRouter>
     </div>

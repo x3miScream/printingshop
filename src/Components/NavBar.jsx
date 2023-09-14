@@ -45,7 +45,7 @@ const NavBar = () => {
                         <i className={isClicked ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={isClicked ? 'nav-menu active' : 'nav-menu'}>
-                        {menuLinks.map((item, index) => {return item.isShowMenu ? <li className='nav-item'><Link to={settings.hostingBaseUrl + item.path} className='nav-links' onClick={closeMobileMenu}>{item.name}</Link></li> : ''})}
+                        {menuLinks.map((item, index) => {return item.isShowMenu ? <li key={index} className='nav-item'><Link to={settings.hostingBaseUrl + item.path} className='nav-links' onClick={closeMobileMenu}>{item.name}</Link></li> : ''})}
                         {/* <li className='nav-item'>
                             <Link to='/sing-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Sing Up

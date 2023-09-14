@@ -9,8 +9,8 @@ const CallToAction = (props) => {
     const {ref, isStandAlone} = props;
     
     return(
-    <>
-        <div className='call-to-action' ref={ref}>
+    <React.Fragment ref={ref}>
+        <div className='call-to-action'>
         {isStandAlone ? <h6 className='text__md m-t-m'>GET A QUOTE</h6> : null}
             <div className='call-to-action-info'>
                 <div className='call-to-action-info-img-section'>
@@ -30,7 +30,7 @@ const CallToAction = (props) => {
             </div>
         </div>
         {isStandAlone ? <Footer isShowLinks={false} isShowSocials={true} isStandAlone={true}/> : null}
-    </>
+    </React.Fragment>
     );
 };
 
