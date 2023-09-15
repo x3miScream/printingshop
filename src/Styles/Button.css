@@ -11,6 +11,15 @@
     cursor: pointer;
 }
 
+.btn--disabled {
+    background-color: lightgray !important;
+    color: white !important;
+}
+
+.btn--disabled:hover {
+    background-color: lightgray !important;
+}
+
 .btn--primary {
     background-color: var(--primary);
     color: #242424;

@@ -5,11 +5,11 @@ import '../Styles/Button.css';
 const STYLES = ['btn--primary', 'btn--outline', 'btn--light--blue'];
 const SIZES = ['btn--medium', 'btn--large'];
 
-const Button = ({children, type, onclick, buttonStyle, buttonSize, link, isLink}) => {
+const Button = ({children, type, onclick, buttonStyle, buttonSize, link, isLink, isDisabled}) => {
     if(isLink === '')
         isLink = false;
 
-    const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
+    const checkButtonStyle = (STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]) + (isDisabled ? ' btn--disabled' : '');
 
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
@@ -19,14 +19,16 @@ const Button = ({children, type, onclick, buttonStyle, buttonSize, link, isLink}
                 <Link to={link} className='btn-mobile'>
                     <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                         onClick={onclick}
-                        type={type}>
+                        type={type}
+                        disabled={isDisabled}>
                         {children}
                     </button>
                 </Link>
                  : 
                  <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                         onClick={onclick}
-                        type={type}>
+                        type={type}
+                        disabled={isDisabled}>
                         {children}
                 </button>
                  )}
