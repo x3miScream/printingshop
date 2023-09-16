@@ -41,7 +41,7 @@ const CallToAction = (props) => {
                         <TextInput type='text' name='openSize' placeHolder='Open Size (W x H)' className='text-input'></TextInput>
                         <TextInput type='text' name='closedSize' placeHolder='Closed Size (W x H)' className='text-input'></TextInput>
                         <TextInput type='text' name='printSideOption' placeHolder='Print Side Option' className='text-input'></TextInput>
-                        <TextInput type='text' name='paperType' placeHolder='PaperType' className='text-input'></TextInput>
+                        <TextInput type='text' name='paperType' placeHolder='Paper Type' className='text-input'></TextInput>
 
                         <SendEmailButton form={formToSubmit} isEmailButtonDisabled={isEmailButtonDisabled} setIsEmailSent={setIsEmailSent}></SendEmailButton>
                     </form>

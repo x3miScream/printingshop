@@ -1,0 +1,30 @@
+.whatsapp--button {
+    /* background-color: red; */
+    width: 3rem;
+    height: 3rem;
+    position:fixed;
+    bottom: 3%;
+    right: 2%;
+    transition: 0.3s;
+}
+
+.whatsapp--icon--img {
+    width: 100%;
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+.whatsapp--button:hover {
+    width: 4rem;
+    height: 4rem;
+}
+
+.whatsapp--icon--img:hover {
+    opacity: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .whatsapp--button {
+      bottom: 2%;
+    }
+  }

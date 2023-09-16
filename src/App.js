@@ -1,6 +1,5 @@
 import './App.css';
 import NavBar from './Components/NavBar.jsx';
-import {useRef} from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Components/Pages/Home.jsx';
 import Services from './Components/Pages/Services.jsx';
@@ -13,24 +12,18 @@ import CallToAction from './Components/Pages/CallToAction.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
 import menuLinks from './Data/MenuLinks.json';
 import settings from './Data/Settings.json'
+import WhatsAppButton from './Components/WhatsAppButton.jsx';
 
 function App() {
 
-  const ref = useRef(null);
-
-  const handleGetAQuoteClick = () => {
-      console.log('clicked')
-      ref.current?.scrollIntoView({behavior: 'smooth'});
-  };
-
   const componentsRegistry = {
-    "Home": <Home scrollToHandler={handleGetAQuoteClick}></Home>,
+    "Home": <Home></Home>,
     "Services": <Services isStandAlone={true}></Services>,
     "Products": <Products isStandAlone={true}></Products>,
     "ProductItem": <ProductItem isStandAlone={true}></ProductItem>,
     "ContactUs": <ContactUs isStandAlone={true}></ContactUs>,
     "BusinessCard": <BusinessCard isStandAlone={true}></BusinessCard>,
-    "CallToAction": <CallToAction ref={ref} isStandAlone={true}></CallToAction>,
+    "CallToAction": <CallToAction isStandAlone={true}></CallToAction>,
     "SignUp": <SingUp isStandAlone={true}></SingUp>
   };
 
@@ -42,6 +35,7 @@ function App() {
         <Routes>
           {menuLinks.map((item, index) => {return <Route key={index} path={settings.hostingBaseUrl + item.path} exact element={componentsRegistry[item.element]}></Route>})}
         </Routes>
+        <WhatsAppButton></WhatsAppButton>
       </BrowserRouter>
     </div>
   );

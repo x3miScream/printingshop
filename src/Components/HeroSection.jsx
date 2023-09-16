@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css'
 import Button from './Button.jsx';
+import settings from '../Data/Settings.json'
 import '../Styles/HeroSection.css';
 
 const HeroSection = (props) => {
@@ -15,7 +16,7 @@ const HeroSection = (props) => {
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' onclick={scrollToHandler} link='#' isLink={true}>
                         GET A QUOTE
                 </Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' isLink={true}>
+                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' isLink={true} link={settings.hostingBaseUrl + '/ContactUs'}>
                         CONTACT US
                 </Button>
             </div>
