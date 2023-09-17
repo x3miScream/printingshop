@@ -1,3 +1,10 @@
 {
-    "hostingBaseUrl": "/printingshop"
+    "hostingBaseUrl": "/printingshop",
+    "contacts": {
+        "whatsApp": "+60173528881",
+        "facebook": "https://www.facebook.com/TomandJerry/",
+        "instagram": "https://www.instagram.com/tomandjerry/",
+        "twitter": "https://twitter.com/tomandjerry?lang=en",
+        "linkedIn": "https://www.linkedin.com/company/microsoft/?originalSubdomain=my"
+    }
 }

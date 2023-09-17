@@ -46,7 +46,29 @@ const ProductItem = (props) => {
                         </div>
                     </div>
 
-                    <hr className='divider-solid m-t-s'></hr>
+                    <div className='product__item__additional__info'>
+                        {productItem.additionalInfo === undefined ? '' : 
+                            productItem.additionalInfo.map((item, index) => { return <React.Fragment key={index}>
+                                    <hr className='divider-solid m-t-l m-b-l'></hr>
+                                    
+                                    {item.title === undefined ? '' : <h6 className='text__md section-header'>{item.title}</h6>}
+
+                                    {item.titleDescription === undefined ? '' : <h6 className='text__xs m-b-s section-header'>{item.titleDescription}</h6>}
+
+                                    {item.images === undefined ? '' : <ul className='product__item__add__info__image__section m-t-m'>
+                                    {item.images.map((imageItem, imageIndex) => { return <li key={imageIndex}>
+                                        <img className='product__item__add__info__image' src={settings.hostingBaseUrl + imageItem.imageSrc}></img>
+                                        {imageItem.label === undefined ? '' : <h6 className='text__sm'>{imageItem.label}</h6>}
+                                        {imageItem.description === undefined ? '' : <h6 className='text__xxs'>{imageItem.description}</h6>}
+                                        
+                                        </li> })}
+                                    </ul>}
+                                </React.Fragment>
+                            })
+                        }
+                    </div>
+
+                    <hr className='divider-solid m-t-m m-b-m'></hr>
 
                     <div className='browse__other__items'>
                         <h6 className='text__md m-t-s section-header'>Check Out Other Services</h6>

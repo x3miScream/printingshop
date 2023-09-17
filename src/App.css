@@ -142,8 +142,12 @@ html {
 }
 
 
-.text__md {
+.text__lg {
   font-size: 46px;
+}
+
+.text__md {
+  font-size: 34px;
 }
 
 .text__sm {
@@ -152,6 +156,10 @@ html {
 
 .text__xs {
   font-size: 18px;
+}
+
+.text__xxs {
+  font-size: 16px;
 }
 
 
@@ -168,6 +176,22 @@ html {
 .m-t-s
 {
   margin-top: 1rem;
+}
+
+
+.m-b-l
+{
+  margin-bottom: 4rem;
+}
+
+.m-b-m
+{
+  margin-bottom: 2rem;
+}
+
+.m-b-s
+{
+  margin-bottom: 1rem;
 }
 
 

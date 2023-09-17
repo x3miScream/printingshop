@@ -6,7 +6,7 @@ import '../Styles/WhatsAppButton.css';
 const WhatsAppButton = () => {
     return(
         <div className='whatsapp--button'>
-            <Link to={'https://wa.me/+60173528881'}>
+            <Link to={'https://wa.me/' + Settings.contacts.whatsApp}>
                 <img className='whatsapp--icon--img' src={Settings.hostingBaseUrl + '/Images/Icons/whatsapp_icon.png'}></img>
             </Link>
         </div>

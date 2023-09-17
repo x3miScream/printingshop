@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import Map from '../Map.jsx';
 import Footer from '../Footer.jsx';
+import Settings from '../../Data/Settings.json';
 import '../../Styles/ContactUs.css';
 
 const ContactUs = (props) => {
@@ -17,19 +18,19 @@ const ContactUs = (props) => {
                     <div className='contact__us__info__section'>
                         <span className="contact-us-link facebook" to='#' target='_blank' are-label='Faceboook'>
                             <i className="contact__us__icon fab fa-facebook-f"></i>
-                            <span>Facebook.com - L Print</span>
+                            <Link to={Settings.contacts.facebook}>Facebook.com - L Print</Link>
                         </span>
                         <span className="contact-us-link instagram" to='#' target='_blank' are-label='Instagram'>
                             <i className="contact__us__icon fab fa-instagram"></i>
-                            <span>Instagram.com - L Print</span>
+                            <Link to={Settings.contacts.instagram}>Instagram.com - L Print</Link>
                         </span>
                         <span className="contact-us-link twitter" to='#' target='_blank' are-label='Twitter'>
                             <i className="contact__us__icon fab fa-twitter"></i>
-                            <span>Twitter.com - L Print</span>
+                            <Link to={Settings.contacts.twitter}>Twitter.com - L Print</Link>
                         </span>
                         <span className="contact-us-link linkedin" to='#' target='_blank' are-label='LinkedIn'>
                             <i className="contact__us__icon fab fa-linkedin"></i>
-                            <span>LinkedIn.com - L Print</span>
+                            <Link to={Settings.contacts.linkedIn}>LinkedIn.com - L Print</Link>
                         </span>
                         <span className="contact-us-link linkedin m-t-m" to='#' target='_blank' are-label='LinkedIn'>
                             <i className="contact__us__icon fa fa-map-marker"></i>
