@@ -19,12 +19,16 @@ const Home = (props) => {
     return(
         <>
             <HeroSection scrollToHandler={handleGetAQuoteClick}></HeroSection>
+            <div className='m-t-l'></div>
             <Products></Products>
+            <hr className='divider-thin m-t-l m-b-l'></hr>
             <BusinessCard />
-            <Testimonials />
+            {/* <Testimonials /> */}
+            <hr className='divider-thin m-t-l m-b-l'></hr>
             <div ref={ref}></div>
             <CallToAction />
-            <Footer isShowSubscribtion={false} isShowLinks={false} isShowSocials={true} isStandAlone={false}/>
+            
+            <Footer isShowSubscribtion={false} isShowLinks={false} isShowSocials={true} isStandAlone={true}/>
         </>
     )
 }

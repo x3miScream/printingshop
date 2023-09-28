@@ -11,7 +11,9 @@ const Footer = (props) => {
 
     return(<>
         {/* <div className='footer-container footer-container-black'> */}
-        <div className= {'footer-container ' + footerContainerClass}>
+        <div className= {'footer-container m-t-l ' + footerContainerClass}>
+            
+            <hr className='divider-thin m-b-s'></hr>
             {isShowSubscribtion ? <FooterSubscribtion></FooterSubscribtion> : null}
             {isShowLinks ? <FooterLinks></FooterLinks> : null}
             {isShowSocials ? <FooterSocials></FooterSocials> : null}

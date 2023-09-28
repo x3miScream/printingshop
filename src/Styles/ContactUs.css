@@ -8,6 +8,7 @@
 .contact__us__content{
     display: flex;
     width: 100%;
+    gap: 2rem;
 }
 
 .contact__us__info__section {

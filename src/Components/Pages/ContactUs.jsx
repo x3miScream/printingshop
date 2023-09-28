@@ -32,10 +32,17 @@ const ContactUs = (props) => {
                             <i className="contact__us__icon fab fa-linkedin"></i>
                             <Link to={Settings.contacts.linkedIn}>LinkedIn.com - L Print</Link>
                         </span>
-                        <span className="contact-us-link linkedin m-t-m" to='#' target='_blank' are-label='LinkedIn'>
-                            <i className="contact__us__icon fa fa-map-marker"></i>
-                            <span>Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</span>
-                        </span>
+                        {
+                            Settings.addresses.map((item, index) => {return <>
+                                <span className="contact-us-link m-t-m" to='#' target='_blank'>
+                                    <i className="contact__us__icon fa fa-map-marker"></i>
+                                    <span>{item.title}</span>
+                                </span>
+                                <span className="contact-us-link m-t-m" to='#' target='_blank'>
+                                    <span>{item.address}</span>
+                                </span>
+                            </>})
+                        }
                     </div>
                     <div className='contact__us__navigation__section m-t-m'>
                         <Map></Map>

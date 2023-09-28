@@ -1,4 +1,5 @@
 {
+    "businessName": "TRIPAC PACK",
     "hostingBaseUrl": "/printingshop",
     "contacts": {
         "whatsApp": "+60173528881",
@@ -6,5 +7,15 @@
         "instagram": "https://www.instagram.com/tomandjerry/",
         "twitter": "https://twitter.com/tomandjerry?lang=en",
         "linkedIn": "https://www.linkedin.com/company/microsoft/?originalSubdomain=my"
-    }
+    },
+    "addresses": [
+        {
+            "title": "Factory",
+            "address": "No. 2 & 4, JALAN GANGSA SD 5/3G, BANDAR SRI DAMANSARA, 52200 KUALA LUMPUR, SELANGOR DARUL EHSAN."
+        },
+        {
+            "title": "Sales Office",
+            "address": "No. 80, JALAN KIP 9, TAMAN PERINDUSTRIAN KIP, SRI DAMANSARA, 52200 KUALA LUMPUR, SELANGOR DARUL EHSAN."
+        }
+    ]
 }

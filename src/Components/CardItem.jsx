@@ -20,7 +20,7 @@ const CardItem = (props) => {
 
                 <div className='cards__item__info'>
                     <h5 className='cards__item__text'>
-                        {props.text}
+                        <span className='text__xxs'>{props.text}</span>
                     </h5>
                 </div>
             </Link>

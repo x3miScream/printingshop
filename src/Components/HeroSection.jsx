@@ -10,8 +10,8 @@ const HeroSection = (props) => {
     return(
         <div className='hero-container'>
             {/* <video src='../Videos/video-1.mp4' autoPlay loop muted /> */}
-            <h1>L PRINT</h1>
-            <p>What are you waiting for?</p>
+            <h1>{settings.businessName}</h1>
+            <p>PRINTING & PACKAGING</p>
             <div className='hero-btns'>
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' onclick={scrollToHandler} link='#' isLink={true}>
                         GET A QUOTE

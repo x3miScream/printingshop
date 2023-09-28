@@ -39,7 +39,9 @@ const NavBar = () => {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to={settings.hostingBaseUrl + "/"} className="navbar-logo" onClick={closeMobileMenu}>
-                        L PRINT <i className='fab fa-typo3' />
+                        <img src={settings.hostingBaseUrl + '/Images/Icons/logo.png'} className='navbar-logo-image' alt='logo'></img>
+                        <span className='navbar-logo-name'>{settings.businessName}</span>
+                        {/* <i className='fab fa-typo3' /> */}
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={isClicked ? 'fas fa-times' : 'fas fa-bars'} />
