@@ -14,7 +14,7 @@
     {
         "name": "About Us",
         "path": "/AboutUs",
-        "element": "BusinessCard",
+        "element": "AboutUs",
         "isShowMenu": true
     },
     {

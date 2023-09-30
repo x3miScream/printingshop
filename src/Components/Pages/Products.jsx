@@ -8,10 +8,9 @@ const Products = (props) => {
 
     return(
         <React.Fragment>
-            <div className='products'>
-                <h6 className='section-header text__md m-t-m'>
-                    CHECK OUT OUR SERVICES
-                </h6>
+            <div className='products m-t-l'>
+                <span className='section-header text__m'>What We Do</span>
+                
                 <Cards />
             </div>
             {isStandAlone ? <Footer isShowLinks={false} isShowSocials={true} isStandAlone={true}/> : null}

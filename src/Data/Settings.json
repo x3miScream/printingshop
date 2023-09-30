@@ -8,13 +8,39 @@
         "twitter": "https://twitter.com/tomandjerry?lang=en",
         "linkedIn": "https://www.linkedin.com/company/microsoft/?originalSubdomain=my"
     },
+    "socials": [
+        {
+            "label": "Facebook",
+            "iconClass": "facebook",
+            "faIconClass": "fa-facebook-f",
+            "address": "https://www.facebook.com/TomandJerry/"
+        },
+        {
+            "label": "Instagram",
+            "iconClass": "instagram",
+            "faIconClass": "fa-instagram",
+            "address": "https://www.instagram.com/tomandjerry/"
+        },
+        {
+            "label": "Twitter",
+            "iconClass": "twitter",
+            "faIconClass": "fa-twitter",
+            "address": "https://twitter.com/tomandjerry?lang=en"
+        },
+        {
+            "label": "LinkedIn",
+            "iconClass": "linkedin",
+            "faIconClass": "fa-linkedin",
+            "address": "https://www.linkedin.com/company/microsoft/?originalSubdomain=my"
+        }
+    ],
     "addresses": [
         {
-            "title": "Factory",
+            "label": "Factory",
             "address": "No. 2 & 4, JALAN GANGSA SD 5/3G, BANDAR SRI DAMANSARA, 52200 KUALA LUMPUR, SELANGOR DARUL EHSAN."
         },
         {
-            "title": "Sales Office",
+            "label": "Sales Office",
             "address": "No. 80, JALAN KIP 9, TAMAN PERINDUSTRIAN KIP, SRI DAMANSARA, 52200 KUALA LUMPUR, SELANGOR DARUL EHSAN."
         }
     ]

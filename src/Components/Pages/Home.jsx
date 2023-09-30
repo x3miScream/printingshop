@@ -2,8 +2,7 @@ import React, {useRef} from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection.jsx';
 import Footer from '../Footer.jsx';
-import BusinessCard from './BusinessCard.jsx';
-import Testimonials from './Testimonials.jsx';
+import AboutUs from './AboutUs.jsx';
 import CallToAction from './CallToAction.jsx';
 import Products from './Products.jsx';
 
@@ -21,10 +20,7 @@ const Home = (props) => {
             <HeroSection scrollToHandler={handleGetAQuoteClick}></HeroSection>
             <div className='m-t-l'></div>
             <Products></Products>
-            <hr className='divider-thin m-t-l m-b-l'></hr>
-            <BusinessCard />
-            {/* <Testimonials /> */}
-            <hr className='divider-thin m-t-l m-b-l'></hr>
+            <AboutUs />
             <div ref={ref}></div>
             <CallToAction />
             

@@ -1,6 +1,8 @@
 .business-card {
-    color: gray;
     font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 .business__card__container {
@@ -47,11 +49,11 @@
     gap: 1rem;
 }
 
-.text__md {
+.text__m {
   flex: 1;
 }
 
-.text__sm {
+.text__s {
   flex: 1;
 }
 

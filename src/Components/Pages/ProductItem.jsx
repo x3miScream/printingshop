@@ -27,7 +27,7 @@ const ProductItem = (props) => {
 
     return(
         <>
-        {productItem === undefined ?  <h4 className='text__md section-header'>Product Not Found.</h4>:
+        {productItem === undefined ?  <h4 className='text__m section-header'>Product Not Found.</h4>:
             <React.Fragment>
                 <div className='product__item'>
                     <div className='product__item__details__section'>
@@ -35,7 +35,7 @@ const ProductItem = (props) => {
                             <img src={settings.hostingBaseUrl + productItem.imageSource} alt='Product' className='product__item__img'></img>
                         </div>
                         <div className='product__item__info__section'>
-                            <h4 className='text__md section-header'>{productItem.text}</h4>
+                            <h4 className='text__m section-header'>{productItem.text}</h4>
                             <h6 className='text__xs m-t-m'>{productItem.productDescriptionP1}</h6>
                             <h6 className='text__xs m-t-s'>{productItem.productDescriptionP2}</h6>
                             <h6 className='text__xs m-t-s'>{productItem.productDescriptionP3}</h6>
@@ -51,14 +51,14 @@ const ProductItem = (props) => {
                             productItem.additionalInfo.map((item, index) => { return <React.Fragment key={index}>
                                     <hr className='divider-solid m-t-l m-b-l'></hr>
                                     
-                                    {item.title === undefined ? '' : <h6 className='text__md section-header'>{item.title}</h6>}
+                                    {item.title === undefined ? '' : <h6 className='text__m section-header'>{item.title}</h6>}
 
                                     {item.titleDescription === undefined ? '' : <h6 className='text__xs m-b-s section-header'>{item.titleDescription}</h6>}
 
                                     {item.images === undefined ? '' : <ul className='product__item__add__info__image__section m-t-m'>
                                     {item.images.map((imageItem, imageIndex) => { return <li key={imageIndex}>
                                         <img className='product__item__add__info__image' src={settings.hostingBaseUrl + imageItem.imageSrc}></img>
-                                        {imageItem.label === undefined ? '' : <h6 className='text__sm'>{imageItem.label}</h6>}
+                                        {imageItem.label === undefined ? '' : <h6 className='text__s'>{imageItem.label}</h6>}
                                         {imageItem.description === undefined ? '' : <h6 className='text__xxs'>{imageItem.description}</h6>}
                                         
                                         </li> })}
@@ -71,7 +71,7 @@ const ProductItem = (props) => {
                     <hr className='divider-solid m-t-m m-b-m'></hr>
 
                     <div className='browse__other__items'>
-                        <h6 className='text__md m-t-s section-header'>Check Out Other Services</h6>
+                        <h6 className='text__m m-t-s section-header'>Check Out Other Services</h6>
 
                         <Cards currentCardId={productItem.id}></Cards>
                     </div>

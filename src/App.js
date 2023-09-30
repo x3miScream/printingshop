@@ -8,6 +8,7 @@ import ProductItem from './Components/Pages/ProductItem.jsx';
 import ContactUs from './Components/Pages/ContactUs.jsx';
 import SingUp from './Components/Pages/SingUp.jsx';
 import BusinessCard from './Components/Pages/BusinessCard.jsx';
+import AboutUs from './Components/Pages/AboutUs.jsx';
 import CallToAction from './Components/Pages/CallToAction.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
 import menuLinks from './Data/MenuLinks.json';
@@ -23,6 +24,7 @@ function App() {
     "ProductItem": <ProductItem isStandAlone={true}></ProductItem>,
     "ContactUs": <ContactUs isStandAlone={true}></ContactUs>,
     "BusinessCard": <BusinessCard isStandAlone={true}></BusinessCard>,
+    "AboutUs": <AboutUs isStandAlone={true}></AboutUs>,
     "CallToAction": <CallToAction isStandAlone={true}></CallToAction>,
     "SignUp": <SingUp isStandAlone={true}></SingUp>
   };

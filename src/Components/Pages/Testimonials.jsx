@@ -3,9 +3,9 @@ import '../../Styles/Testimonials.css';
 
 const Testimonials = () => {
     return(
-        <div className='testimonials'>
-            <h6 className='text__md m-t-m'>
-                PARTNERSHIP
+        <div className='testimonials p-b-l p-t-l'>
+            <h6 className='text__m m-t-m'>
+                Partnership
             </h6>
             
             <h6 className='text__xs m-t-s'>

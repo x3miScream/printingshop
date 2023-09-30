@@ -30,7 +30,8 @@ const CallToAction = (props) => {
     return(
     <React.Fragment ref={ref}>
         <div className='call-to-action'>
-        {isStandAlone ? <h6 className='text__md m-t-m'>GET A QUOTE</h6> : null}
+        {/* {isStandAlone ? <h6 className='text__m m-t-m'>GET A QUOTE</h6> : null} */}
+        <h6 className='text__m m-t-m'>Get A Quote</h6>
             <div className='call-to-action-info'>
                 <div className='call-to-action-info-img-section'>
                     <img src={settings.hostingBaseUrl + '/Images/img-20.jpg'} className='call__to__action__img'></img>

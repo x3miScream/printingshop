@@ -1,0 +1,15 @@
+public/Images/Icons/logo.png
+public/index.html
+src/App.css
+src/Components/CardItem.jsx
+src/Components/Footer.jsx
+src/Components/FooterSocials.jsx
+src/Components/HeroSection.jsx
+src/Components/NavBar.jsx
+src/Components/Pages/BusinessCard.jsx
+src/Components/Pages/ContactUs.jsx
+src/Components/Pages/Home.jsx
+src/Data/Settings.json
+src/Styles/Cards.css
+src/Styles/ContactUs.css
+src/Styles/NavBar.css

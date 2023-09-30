@@ -1,21 +1,24 @@
 .navbar {
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   background-color: #f6fdfa;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 999;;
+  z-index: 999;
+  border-bottom:  1px solid #bbb;
+
 }
 
 .navbar-container {
   display: flex;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  height: 80px;
+  height: 100%;
   max-width: 1500px;
 }
 
@@ -29,11 +32,20 @@
   display: flex;
   align-items: center;
   height: 100%;
+  width: 15rem;
 }
 
 .navbar-logo-image {
   margin-right: 0.5rem;
   object-fit: contain;
+  height: 80%;
+  cursor: pointer;
+}
+
+.navbar-logo-name {
+  /* object-fit: contain; */
+  width: 100%;
+  cursor: pointer;
 }
 
 .fa-typo3 {
@@ -53,7 +65,7 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: 70px;
 }
 
 .nav-links {
@@ -108,6 +120,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    /* height: 100%; */
   }
 
   .nav-links {
@@ -129,10 +142,6 @@
     left: 0;
     text-align: center;
   }
-
-  .navbar-logo-name {
-    /* display: none; */
-  }
   
   .navbar-logo-image {
     justify-self: end;
@@ -143,7 +152,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 30%);
     font-size: 1.8rem;
     cursor: pointer;
   }

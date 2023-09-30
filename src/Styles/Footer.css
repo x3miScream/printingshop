@@ -162,6 +162,12 @@
     margin-bottom: 16px;
 }
 
+.footer-logo-name {
+    /* object-fit: contain; */
+    max-width: 15rem;
+    cursor: pointer;
+  }
+
 .footer-container-black .social-logo {
     color: #fff;
     /* color: gray; */

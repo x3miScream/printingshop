@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Quattrocento:700|Quattrocento:400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   /* font-family: 'PT Sans', sans-serif; */
-  font-family: 'Quattrocento';
+  font-family: 'Poppins';
   font-weight: 400;
 }
 
 /*
 --text: #051a0f;
 --background: #f6fdfa;
---primary: #f4ddff;
---secondary: #dea8fd;
---accent: #2375c7;
+--primary: #0e27c6;
+--secondary: #a0b1fe;
+--accent: #90DBFD;
+
 */
 
 /*
@@ -110,25 +112,34 @@ html {
   font-size: 100px;
 }
 
+.about-us {
+  background-color: rgb(20, 20, 20);
+}
+
+.about-us-inner {
+  background: linear-gradient(rgba(0, 0, 193, 0.60), rgba(0, 0, 0, 0.60))
+}
+
 .business-card {
   /* background-image: linear-gradient(rgba(211, 211, 211, 0.80), rgba(0, 0, 0, 0.60)), url('../public/Images/img-14.jpg'); */
   /* background-color:#F8F8F8; */
-  /* background-color:#f4ddff; */
+  /* background-color:#0e27c6; */
+  /* background: linear-gradient(rgba(14, 39, 198, 0.60), rgba(0, 0, 0, 0.60)); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: gray;
+  color: #f6fdfa;
   font-size: 100px;
   height: unset;
 }
 
 .testimonials {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(211, 211, 211, 0.60)), url('../public/Images/img-15.jpg'); */
-  /* background-color: #f4ddff; */
+  /* background-color: #0e27c6; */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: gray;
+  color: #f6fdfa;
   font-size: 100px;
   height: unset;
 }
@@ -189,33 +200,36 @@ html {
 }
 
 
-.text__xlg, .text__lg, .text__md, .text__sm, .text__xs, .text__xxs {
+.text__xl, .text__l, .text__m, .text__s, .text__xs, .text__xxs {
   font-family: 'Quattrocento';
   font-weight: 700;
 }
 
-.text__xlg {
+.text__xl {
   font-size: 4.210rem;
 }
 
-.text__lg {
+.text__l {
   font-size: 3.158rem;
 }
 
-.text__md {
+.text__m {
   font-size: 2.369rem;
 }
 
-.text__sm {
+.text__s {
   font-size: 1.777rem;
+  font-weight: 400;
 }
 
 .text__xs {
   font-size: 1.333rem;
+  font-weight: 400;
 }
 
 .text__xxs {
   font-size: 0.950rem;
+  font-weight: 400;
 }
 
 
@@ -248,6 +262,38 @@ html {
 .m-b-s
 {
   margin-bottom: 1rem;
+}
+
+
+.p-t-l
+{
+  padding-top: 4rem;
+}
+
+.p-t-m
+{
+  padding-top: 2rem;
+}
+
+.p-t-s
+{
+  padding-top: 1rem;
+}
+
+
+.p-b-l
+{
+  padding-bottom: 4rem;
+}
+
+.p-b-m
+{
+  padding-bottom: 2rem;
+}
+
+.p-b-s
+{
+  padding-bottom: 1rem;
 }
 
 
