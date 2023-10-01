@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {useLocation, Navigate} from 'react-router-dom';
 import cardsData from '../../Data/Products.json'
 import settings from '../../Data/Settings.json'
@@ -13,8 +13,11 @@ const ProductItem = (props) => {
     const [redirect, setRedirect] = useState('')
     
     const id = (location.state === undefined || location.state === null ? -1 : location.state.id);
-
     const productItem = cardsData.find((item) => {return item.id === id});
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [id]);
 
     if(redirect != '')
     {

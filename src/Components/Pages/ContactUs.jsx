@@ -16,16 +16,16 @@ const ContactUs = (props) => {
                 </h6>
                 <div className='contact__us__content'>
                     <div className='contact__us__info__section'>
-                        {Settings.socials.map((item, index) => {return <span className={"contact-us-link " + item.iconClass + ""} to='#' target='_blank' are-label={item.label}>
+                        {Settings.socials.map((item, index) => {return <span key={"social_" + index} className={"contact-us-link " + item.iconClass + ""} to='#' target='_blank' are-label={item.label}>
                                 <i className={"contact__us__icon fab " + item.faIconClass}></i>
                                 <Link to={item.address}>{item.label}</Link>
                             </span>})}
                         {Settings.addresses.map((item, index) => {return <>
-                                <span className="contact-us-link m-t-m" to='#' target='_blank'>
+                                <span key={"label_" + index} className="contact-us-link m-t-m" to='#' target='_blank'>
                                     <i className="contact__us__icon fa fa-map-marker"></i>
                                     <span>{item.label}</span>
                                 </span>
-                                <span className="contact-us-link m-t-m" to='#' target='_blank'>
+                                <span key={"detail_" + index} className="contact-us-link m-t-m" to='#' target='_blank'>
                                     <span className='text__xs'>{item.address}</span>
                                 </span>
                             </>})}

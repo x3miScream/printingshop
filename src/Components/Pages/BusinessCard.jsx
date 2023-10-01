@@ -8,22 +8,38 @@ const BusinessCard = (props) => {
     return(
         <>
             <div className='business-card p-t-l p-b-l'>
-                <span className='text__m'>About Us</span>
+                
                 <div className='business__card__container'>
                     <div className='business__card__img__section'>
-                        <img src={settings.hostingBaseUrl + '/Images/img-16.jpg'} className='business__card__img'></img>
+                        <div className='container__box__shape'>
+                        <img src={settings.hostingBaseUrl + '/Images/AboutUs/img-002.png'} className='business__card__img'></img>
+                        </div>
+
+                        <div className='container__box__shape ontop'>
+                            <img src={settings.hostingBaseUrl + '/Images/AboutUs/img-001.png'} className='business__card__img'></img>
+                        </div>
+
+                        <div className='container__box__shape ontop'>
+                            <img src={settings.hostingBaseUrl + '/Images/AboutUs/img-003.png'} className='business__card__img'></img>
+                        </div>
                     </div>
                     
                     <div className='biness__card__info__section'>
-                        {/* <h4 className='text__m sectino-header'>Printing Design Services</h4> */}
+                        <span className='text__m'>About Us</span>
                         <h4 className='text__m sectino-header'>PRINTING DESIGN SERVICES</h4>
                         <h6 className='text__xs'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            TRIPACK PACK is a printing service provider that specializes in offset printing and packaging. With a competitive edge machinery and staff number reaching 40 we provide top level quality services to make sure your product has the presentation in the market. 
                         </h6>
                         <h6 className='text__xs'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            With services such an any types of Uni Color, Inner Boxes, Offset Color E-flute and other packaging, All types of printing jobs, we have managed to satisfy clients such as APM Group, Canon Opto (M) Bhd, Casio (M) Sdn Bhd and many more.
                         </h6>
                     </div>
+                </div>
+
+                <div className='business__card__footer'>
+                    <div className='business__card__footer__box'><h6 className='text__s'>15+ Happy Major Clients</h6></div>
+                    <div className='business__card__footer__box'><h6 className='text__s'>40 Staff Power</h6></div>
+                    <div className='business__card__footer__box'><h6 className='text__s'>15+ Types Of Machinery</h6></div>
                 </div>
             </div>
 
