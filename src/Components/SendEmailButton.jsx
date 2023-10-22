@@ -10,15 +10,21 @@ const SendEmailButton = (props) => {
     const emailPublicKey = 'R_26nK25PbEUi0GQs';
 
     const sendEmail = (e) => {
-        console.log(form.current);
+        
+        const isFormValid = form.current.checkValidity();
 
-        emailjs.sendForm(emailServiceId, emailTemplateId, form.current, emailPublicKey)
-          .then((result) => {
-              console.log(result.text);
-              setIsEmailSent(true);
-          }, (error) => {
-              console.log(error.text);
-          });
+        console.log(isFormValid);
+
+        if(isFormValid)
+        {
+            emailjs.sendForm(emailServiceId, emailTemplateId, form.current, emailPublicKey)
+            .then((result) => {
+                console.log(result.text);
+                setIsEmailSent(true);
+            }, (error) => {
+                console.log(error.text);
+            });
+        }
       };
       
 

@@ -195,6 +195,10 @@ html {
   width: 100%;
 }
 
+.text-input.half-size {
+  width: 49%;
+}
+
 .text-input::placeholder {
     color: #b1b1b1;
 }

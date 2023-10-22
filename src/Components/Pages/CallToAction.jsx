@@ -4,6 +4,7 @@ import Button from '../Button.jsx';
 import TextInput from '../TextInput.jsx';
 import Footer from '../Footer.jsx';
 import SendEmailButton from '../SendEmailButton.jsx';
+import DropDownListGeneric from '../DropDownListGeneric.jsx';
 
 import settings from '../../Data/Settings.json'
 
@@ -13,6 +14,17 @@ const CallToAction = (props) => {
 
     const {ref, isStandAlone} = props;
     const formToSubmit = useRef();
+
+    const printSideTypeOptions = [
+        {
+            value: 'SS',
+            text: 'Single Sided'
+        },
+        {
+            value: 'DS',
+            text: 'Double Sided'
+        }
+    ];
 
     const onSubmitForm = (e) => {
         e.preventDefault();
@@ -37,13 +49,20 @@ const CallToAction = (props) => {
                     <img src={settings.hostingBaseUrl + '/Images/img-20.jpg'} className='call__to__action__img'></img>
                 </div>
                 <div className='call-to-action-info-input-section'>
-                    <form ref={formToSubmit} className='call-to-acton-input-area' onSubmit={e => onSubmitForm(e)}>
+                    <form ref={formToSubmit} id='formToTest' className='call-to-acton-input-area' onSubmit={e => onSubmitForm(e)}>
+                        <TextInput type='text' name='name' placeHolder='Name' className='text-input' isRequired={true}></TextInput>
+                        <TextInput type='text' name='phoneNumber' placeHolder='Phone Number' className='text-input half-size' isRequired={true}></TextInput>
+                        <TextInput type='text' name='emailAddress' placeHolder='Email Address' className='text-input half-size' isRequired={true}></TextInput>
+                        <TextInput type='text' name='companyName' placeHolder='Company Name (Optional)' className='text-input'></TextInput>
                         <TextInput type='text' name='quantity' placeHolder='Quantity' className='text-input'></TextInput>
-                        <TextInput type='text' name='openSize' placeHolder='Open Size (W x H)' className='text-input'></TextInput>
-                        <TextInput type='text' name='closedSize' placeHolder='Closed Size (W x H)' className='text-input'></TextInput>
-                        <TextInput type='text' name='printSideOption' placeHolder='Print Side Option' className='text-input'></TextInput>
+                        <TextInput type='text' name='openSize' placeHolder='Open Size (W x H)' className='text-input half-size'></TextInput>
+                        <TextInput type='text' name='closedSize' placeHolder='Closed Size (W x H)' className='text-input half-size'></TextInput>
+                        <DropDownListGeneric id='printSideOption' name='printSideOption' dropDownOptions={printSideTypeOptions}></DropDownListGeneric>
                         <TextInput type='text' name='paperType' placeHolder='Paper Type' className='text-input'></TextInput>
-
+                        <TextInput type='textarea' name='finishingType' placeHolder='Finishing (Lamination, Varnishing, etc.)' className='text-input half-size'></TextInput>
+                        <TextInput type='textarea' name='bindingType' placeHolder='Binding (Stable Binding, others...)' className='text-input half-size'></TextInput>
+                        <TextInput type='textarea' name='additionalInfo' placeHolder='Other Additional Information...' className='text-input'></TextInput>
+                        
                         <SendEmailButton form={formToSubmit} isEmailButtonDisabled={isEmailButtonDisabled} setIsEmailSent={setIsEmailSent}></SendEmailButton>
                     </form>
                 </div>

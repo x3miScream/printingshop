@@ -11,9 +11,9 @@
 {
     display: flex;
     flex-direction: row;
+    align-items: start;
     width: 100%;
     overflow: hidden;
-    align-items: center;
     text-decoration: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -55,7 +55,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* flex-direction: column; */
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
