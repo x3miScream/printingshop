@@ -38,10 +38,11 @@ const ProductItem = (props) => {
                             <img src={settings.hostingBaseUrl + productItem.imageSource} alt='Product' className='product__item__img'></img>
                         </div>
                         <div className='product__item__info__section'>
-                            <h4 className='text__m section-header'>{productItem.text}</h4>
-                            <h6 className='text__xs m-t-m'>{productItem.productDescriptionP1}</h6>
-                            <h6 className='text__xs m-t-s'>{productItem.productDescriptionP2}</h6>
-                            <h6 className='text__xs m-t-s'>{productItem.productDescriptionP3}</h6>
+                            <h4 className='text__m section-header'>{productItem.label}</h4>
+
+                            {productItem.productDescriptionParagraphs === undefined ? null : productItem.productDescriptionParagraphs.map((item, index) => {
+                                return <h6 key={index} className='text__xs m-t-m'>{item}</h6>
+                            })}
 
                             <Button className='btns' buttonStyle='btn--light--blue' buttonSize='btn--large' onclick={getAQuoteClickHandler} link='#' isLink={true}>
                                 GET A QUOTE
@@ -70,11 +71,14 @@ const ProductItem = (props) => {
                             })
                         }
                     </div>
+                        
+                        
+                    <h6 className='text__s m-t-xl section-header'>Not what you are looking for?</h6>
 
-                    <hr className='divider-solid m-t-m m-b-m'></hr>
+                    <hr className='divider-solid m-b-m'></hr>
 
                     <div className='browse__other__items'>
-                        <h6 className='text__m m-t-s section-header'>Check Out Other Services</h6>
+                        <h6 className='text__m m-t-s section-header'>Check out other services</h6>
 
                         <Cards currentCardId={productItem.id}></Cards>
                     </div>

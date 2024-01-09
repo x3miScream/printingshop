@@ -31,7 +31,7 @@ const BusinessCard = (props) => {
                             TRIPACK PACK is a printing service provider that specializes in offset printing and packaging. With a competitive edge machinery and staff number reaching 40 we provide top level quality services to make sure your product has the presentation in the market. 
                         </h6>
                         <h6 className='text__xs'>
-                            With services such an any types of Uni Color, Inner Boxes, Offset Color E-flute and other packaging, All types of printing jobs, we have managed to satisfy clients such as APM Group, Canon Opto (M) Bhd, Casio (M) Sdn Bhd and many more.
+                            With services such as any types of Uni Color, Inner Boxes, Offset Color E-flute and other packaging, All types of printing jobs, we have managed to satisfy clients as big as APM Group, Canon Opto (M) Bhd, Casio (M) Sdn Bhd and many more.
                         </h6>
                     </div>
                 </div>

@@ -25,8 +25,9 @@ const ContactUs = (props) => {
                                     <i className="contact__us__icon fa fa-map-marker"></i>
                                     <span>{item.label}</span>
                                 </span>
+
                                 <span key={"detail_" + index} className="contact-us-link m-t-m" to='#' target='_blank'>
-                                    <span className='text__xs'>{item.address}</span>
+                                    <span className='text__xxs'>{item.address}</span>
                                 </span>
                             </>})}
                     </div>

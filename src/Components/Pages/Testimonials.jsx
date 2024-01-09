@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../Styles/Testimonials.css';
+import settings from '../../Data/Settings.json'
 
 const Testimonials = () => {
     return(
@@ -14,70 +15,54 @@ const Testimonials = () => {
 
             <div className='testimonials__brand__list m-t-l'>
                 <div className='testimonials__brand__logo__slider'>
-                    <span className="testimonials__brand__logo" are-label='LinkedIn'>
-                        <i className="fab fa-linkedin"></i>
+                <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img src={settings.hostingBaseUrl + "/Images/Logos/ajinomoto.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='aviato'>
-                        <i className="fab fa-aviato"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/samsung.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='apper'>
-                        <i className="fab fa-apper"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/apm.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='aws'>
-                        <i className="fab fa-aws"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/canon.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='blackberry'>
-                        <i className="fab fa-blackberry"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/casio.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='canadian-maple-leaf'>
-                        <i className="fab fa-canadian-maple-leaf"></i>
-                    </span>
-
-                    <span className="testimonials__brand__logo" are-label='amazon-pay'>
-                        <i className="fab fa-cc-amazon-pay"></i>
-                    </span>
-
-                    <span className="testimonials__brand__logo" are-label='visa'>
-                        <i className="fab fa-cc-visa"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/celcom.svg"}></img>
                     </span>
                 </div>
 
                 <div className='testimonials__brand__logo__slider'>
-                    <span className="testimonials__brand__logo" are-label='LinkedIn'>
-                        <i className="fab fa-linkedin"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img src={settings.hostingBaseUrl + "/Images/Logos/ajinomoto.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='aviato'>
-                        <i className="fab fa-aviato"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/samsung.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='apper'>
-                        <i className="fab fa-apper"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/apm.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='aws'>
-                        <i className="fab fa-aws"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/canon.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='blackberry'>
-                        <i className="fab fa-blackberry"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/casio.svg"}></img>
                     </span>
 
-                    <span className="testimonials__brand__logo" are-label='canadian-maple-leaf'>
-                        <i className="fab fa-canadian-maple-leaf"></i>
-                    </span>
-
-                    <span className="testimonials__brand__logo" are-label='amazon-pay'>
-                        <i className="fab fa-cc-amazon-pay"></i>
-                    </span>
-
-                    <span className="testimonials__brand__logo" are-label='visa'>
-                        <i className="fab fa-cc-visa"></i>
+                    <span className="testimonials__brand__logo__img__container" are-label='visa'>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/celcom.svg"}></img>
                     </span>
                 </div>
             </div>

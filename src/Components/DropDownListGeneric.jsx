@@ -12,7 +12,7 @@ const DropDownListGeneric = (props) => {
     return (
         <>
             <select className='text-input'>
-                {dropDownOptions.map((item, index) => {return <option value={item.value}>{item.text}</option>})}
+                {dropDownOptions.map((item, index) => {return <option key={item.value} value={item.value}>{item.text}</option>})}
             </select>
         </>
     );

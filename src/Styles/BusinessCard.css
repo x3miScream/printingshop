@@ -52,6 +52,7 @@
 .container__box__shape:hover {
   clip-path: circle(100%);
   width: 90%;
+  margin-left: 2rem;
   z-index: 1;
 }
 

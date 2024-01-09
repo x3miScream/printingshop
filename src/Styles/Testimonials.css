@@ -53,10 +53,25 @@
     animation: 20s slide infinite linear;
 }
 
+.testimonials__brand__logo__img__container {
+    color: #f6fdfa;
+    width: 6rem;
+    margin-left: 4rem;
+    text-align: center;
+}
+
 .testimonials__brand__logo {
     color: #f6fdfa;
     font-size: 80px;
     margin-left: 4rem;
+}
+
+.testimonials__brand__logo__img
+{
+    object-fit: fill;
+    width: 100%;
+    margin: auto;
+    display: block;
 }
 
 @keyframes slide {
