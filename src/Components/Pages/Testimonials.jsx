@@ -50,7 +50,7 @@ const Testimonials = () => {
                     </span>
 
                     <span className="testimonials__brand__logo__img__container" are-label='visa'>
-                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/apm.svg"}></img>
+                        <img className='testimonials__brand__logo__img' src={settings.hostingBaseUrl + "/Images/Logos/APM.svg"}></img>
                     </span>
 
                     <span className="testimonials__brand__logo__img__container" are-label='visa'>
