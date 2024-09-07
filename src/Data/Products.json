@@ -2,7 +2,7 @@
     {
         "id": 0,
         "group": 0,
-        "imageSource": "/Images/Services/img-17.jpg",
+        "imageSource": "/Images/packaging/tall_house.jpg",
         "text": "Choose type of material, finishing, and of course printing",
         "label": "Packaging Box",
         "productDescriptionParagraphs": [
@@ -16,23 +16,75 @@
                 "images": [
                     {
                         "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
+                        "imageSrc": "/Images/packaging/tall_house.jpg"
                     },
                     {
                         "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
+                        "imageSrc": "/Images/packaging/tall_house_sketch.jpg"
                     },
                     {
                         "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
+                        "imageSrc": "/Images/packaging/tall_box.jpg"
                     },
                     {
                         "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
+                        "imageSrc": "/Images/packaging/tall_box_sketch.jpg"
                     },
                     {
                         "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
+                        "imageSrc": "/Images/packaging/square_box.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/square_box_sketch.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/match_box.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/match_box_sketch.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/flower.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/flower_sketch.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_box.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_box_sketch.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_sandwich.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_sandwich_sketch.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_square.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_square_sketch.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_tent.jpg"
+                    },
+                    {
+                        "label": "",
+                        "imageSrc": "/Images/packaging/triangle_tent_sketch.jpg"
                     }
                 ]
             }
