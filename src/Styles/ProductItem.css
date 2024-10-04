@@ -55,6 +55,10 @@
     min-width: 14rem;
   }
 
+  .product__item__add__info__image__section > li > .product__item_add_info__label {
+    text-align: center;
+  }
+
 .product__item__add__info__image {
     object-fit: cover;
     width: 100%;

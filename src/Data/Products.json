@@ -1,310 +1,293 @@
-[
-    {
-        "id": 0,
-        "group": 0,
-        "imageSource": "/Images/packaging/tall_house.jpg",
-        "text": "Choose type of material, finishing, and of course printing",
-        "label": "Packaging Box",
-        "productDescriptionParagraphs": [
-            "Packing your products, Packaging a delivery, or just organizing items, packaging boxes are used for anything, from cereal boxes to cosmetic products. It offers a level of customization to how the end product will present itself.",
-            "Getting the packaging box design right is a crucial step when it comes to public recognition. The box is the first thing that customers see when they receive products or gifts. Packaging boxes help in advertising tremendously as they not only please the current clients but may also catch an eye of any potential new comers."
-        ],
-        "path": "#",
-        "additionalInfo": [
-            {
-                "title": "Check out some of our examples",
-                "images": [
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/tall_house.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/tall_house_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/tall_box.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/tall_box_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/square_box.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/square_box_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/match_box.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/match_box_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/flower.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/flower_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_box.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_box_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_sandwich.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_sandwich_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_square.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_square_sketch.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_tent.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/packaging/triangle_tent_sketch.jpg"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 1,
-        "group": 0,
-        "imageSource": "/Images/Services/img-18.jpg",
-        "text": "Label sticker is the face of the product and can easily attract a lot of attention",
-        "label": "Label Sticker",
-        "productDescriptionParagraphs": [
-            "Label stickers help you instantly catch customers' eyes. A good label sticker makes your product stand out in on a shelf among other products and simply make your product speak for itself.",
-            "A good and informative label sticker can contain all the necessary important information, therefore clients may pass share it and popularize your product further.",
-            "A label sticker can be planced on almost any surface and can be of various sizes."
-        ],
-        "path": "#",
-        "additionalInfo": [
-            {
-                "title": "Examples",
-                "images": [
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    },
-                    {
-                        "label": "",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    }
-                ]
-            },
-            {
-                "title": "Paper Type",
-                "images": [
-                    {
-                        "label": "Boxboard Grey Black",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    },
-                    {
-                        "label": "Gloss Art Card",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    },
-                    {
-                        "label": "Silver Foil",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    },
-                    {
-                        "label": "Corrugated Cardboard",
-                        "imageSrc": "/Images/Services/img-18.jpg"
-                    }
-                ]
-            },
-            {
-                "title": "Lamination",
-                "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
-                "images": [
-                    {
-                        "label": "Boxboard Grey Black",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    },
-                    {
-                        "label": "Gloss Art Card",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    },
-                    {
-                        "label": "Silver Foil",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    },
-                    {
-                        "label": "Corrugated Cardboard",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    }
-                ]
-            },
-            {
-                "title": "Finishing",
-                "titleDescription": "Customize the appearance of your product by choosing an unique finishing design.",
-                "images": [
-                    {
-                        "label": "Boxboard Grey Black",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    },
-                    {
-                        "label": "Gloss Art Card",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    },
-                    {
-                        "label": "Silver Foil",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    },
-                    {
-                        "label": "Corrugated Cardboard",
-                        "imageSrc": "/Images/Services/img-18.jpg",
-                        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "group": 0,
-        "imageSource": "/Images/Services/img-18.jpg",
-        "text": "Card",
-        "label": "Flyer, Leaflet & Poster",
-        "path": "#"
-    },
-    {
-        "id": 3,
-        "group": 1,
-        "imageSource": "/Images/Services/img-17.jpg",
-        "text": "Paper",
-        "label": "Brochure",
-        "path": "#"
-    },
-    {
-        "id": 4,
-        "group": 1,
-        "imageSource": "/Images/Services/img-18.jpg",
-        "text": "Paper",
-        "label": "Paper Bag",
-        "path": "#"
-    },
-    {
-        "id": 5,
-        "group": 1,
-        "imageSource": "/Images/Services/img-17.jpg",
-        "text": "Paper",
-        "label": "Business Card",
-        "path": "#"
-    },
-    {
-        "id": 6,
-        "group": 1,
-        "imageSource": "/Images/Services/img-18.jpg",
-        "text": "Paper",
-        "label": "Letterhead",
-        "path": "#"
-    },
-    {
-        "id": 7,
-        "group": 2,
-        "imageSource": "/Images/Services/img-17.jpg",
-        "text": "Paper",
-        "label": "Enlvelope",
-        "path": "#"
-    },
-    {
-        "id": 8,
-        "group": 2,
-        "imageSource": "/Images/Services/img-18.jpg",
-        "text": "Card",
-        "label": "NCR Bill Book",
-        "path": "#"
-    },
-    {
-        "id": 9,
-        "group": 2,
-        "imageSource": "/Images/Services/img-17.jpg",
-        "text": "Paper",
-        "label": "Folder",
-        "path": "#"
-    },
-    {
-        "id": 10,
-        "group": 2,
-        "imageSource": "/Images/Services/img-17.jpg",
-        "text": "Paper",
-        "label": "Ticket & Voucher",
-        "path": "#"
-    },
-    {
-        "id": 11,
-        "group": 3,
-        "imageSource": "/Images/Services/img-18.jpg",
-        "text": "Paper",
-        "label": "Certificate",
-        "path": "#"
-    },
-    {
-        "id": 12,
-        "group": 3,
-        "imageSource": "/Images/Services/img-17.jpg",
-        "text": "Paper",
-        "label": "Bookmark",
-        "path": "#"
-    },
-    {
-        "id": 13,
-        "group": 3,
-        "imageSource": "/Images/Services/img-18.jpg",
-        "text": "Paper",
-        "label": "Money Packet",
-        "path": "#"
-    },
-    {
-        "id": 14,
-        "group": 3,
-        "imageSource": "/Images/Services/img-17.jpg",
-        "text": "Paper",
-        "label": "Invitation Card",
-        "path": "#"
-    }
-]
+{
+    "services": [
+        {
+            "id": 0,
+            "group": 0,
+            "imageSource": "/Images/packaging/tall_house.jpg",
+            "text": "Choose type of material, finishing, and of course printing",
+            "label": "Packaging Box",
+            "productDescriptionParagraphs": [
+                "Packing your products, Packaging a delivery, or just organizing items, packaging boxes are used for anything, from cereal boxes to cosmetic products. It offers a level of customization to how the end product will present itself.",
+                "Getting the packaging box design right is a crucial step when it comes to public recognition. The box is the first thing that customers see when they receive products or gifts. Packaging boxes help in advertising tremendously as they not only please the current clients but may also catch an eye of any potential new comers."
+            ],
+            "path": "#",
+            "additionalInfo": [
+                {
+                    "title": "Check out some of our examples",
+                    "images": [
+                        { "label": "", "imageSrc": "/Images/packaging/tall_house.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/tall_house_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/tall_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/tall_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/square_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/square_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/match_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/match_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/flower.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/flower_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_sandwich.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_sandwich_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_square.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_square_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_tent.jpg" },
+                        { "label": "", "imageSrc": "/Images/packaging/triangle_tent_sketch.jpg" }
+                    ]
+                },{
+                    "title": "Choose paper type",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg" },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg" },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg" },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg" }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg" },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg" },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg" }
+                    ]
+                },{
+                    "title": "Box Type",
+                    "titleDescription": "",
+                    "images": [
+                        { "label": "Window Cutout", "imageSrc": "/Images/box_type/window_cutout.jpg" },
+                        { "label": "Window Patching", "imageSrc": "/Images/box_type/window_patching.jpg" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "group": 0,
+            "imageSource": "/Images/Services/label_sticker/label_sticker_1.jpg",
+            "text": "Label sticker is the face of the product and can easily attract a lot of attention",
+            "label": "Label Sticker",
+            "productDescriptionParagraphs": [
+                "Label stickers help you instantly catch customers' eyes. A good label sticker makes your product stand out in on a shelf among other products and simply make your product speak for itself.",
+                "A good and informative label sticker can contain all the necessary important information, therefore clients may pass share it and popularize your product further.",
+                "A label sticker can be planced on almost any surface and can be of various sizes."
+            ],
+            "path": "#",
+            "additionalInfo": [
+                {
+                    "title": "Check out some of our examples",
+                    "images": [
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_1.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_2.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_3.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_4.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_5.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_6.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_7.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_8.jpg" }
+                    ]
+                },
+                {
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg" },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg" },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg" },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg" }
+                    ]
+                },
+                {
+                    "title": "Finishing",
+                    "titleDescription": "Customize the appearance of your product by choosing an unique finishing design.",
+                    "images": [
+                        {
+                            "label": "Boxboard Grey Black",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        },
+                        {
+                            "label": "Gloss Art Card",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        },
+                        {
+                            "label": "Silver Foil",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        },
+                        {
+                            "label": "Corrugated Cardboard",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "group": 0,
+            "imageSource": "/Images/Services/img-18.jpg",
+            "text": "Card",
+            "label": "Flyer, Leaflet & Poster",
+            "path": "#"
+        },
+        {
+            "id": 3,
+            "group": 1,
+            "imageSource": "/Images/Services/img-17.jpg",
+            "text": "Paper",
+            "label": "Brochure",
+            "path": "#"
+        },
+        {
+            "id": 4,
+            "group": 1,
+            "imageSource": "/Images/Services/paper_bag/paper_bag.jpg",
+            "text": "Paper",
+            "label": "Paper Bag",
+            "path": "#"
+        },
+        {
+            "id": 5,
+            "group": 1,
+            "imageSource": "/Images/Services/business_card/business_card.jpg",
+            "text": "Paper",
+            "label": "Business Card",
+            "path": "#"
+        },
+        {
+            "id": 6,
+            "group": 1,
+            "imageSource": "/Images/Services/img-18.jpg",
+            "text": "Paper",
+            "label": "Letterhead",
+            "path": "#"
+        },
+        {
+            "id": 7,
+            "group": 2,
+            "imageSource": "/Images/Services/envelope/envelope_1.jpg",
+            "text": "Paper",
+            "label": "Envelope",
+            "path": "#",
+            "additionalInfo": [
+                {
+                    "title": "Check out some of our examples",
+                    "images": [
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_1.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_2.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_3.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_4.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_5.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_6.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_7.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_8.jpg" }
+                    ]
+                },
+                {
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg" },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg" },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg" },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg" }
+                    ]
+                },
+                {
+                    "title": "Finishing",
+                    "titleDescription": "Customize the appearance of your product by choosing an unique finishing design.",
+                    "images": [
+                        {
+                            "label": "Boxboard Grey Black",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        },
+                        {
+                            "label": "Gloss Art Card",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        },
+                        {
+                            "label": "Silver Foil",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        },
+                        {
+                            "label": "Corrugated Cardboard",
+                            "imageSrc": "/Images/Services/img-18.jpg",
+                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+                        }
+                    ]
+                }
+            ]
+            
+        },
+        {
+            "id": 8,
+            "group": 2,
+            "imageSource": "/Images/Services/bill_book/bill_book_1.jpg",
+            "text": "Card",
+            "label": "NCR Bill Book",
+            "path": "#"
+        },
+        {
+            "id": 9,
+            "group": 2,
+            "imageSource": "/Images/Services/img-17.jpg",
+            "text": "Paper",
+            "label": "Folder",
+            "path": "#"
+        },
+        {
+            "id": 10,
+            "group": 2,
+            "imageSource": "/Images/Services/voucher/voucher_1.jpg",
+            "text": "Paper",
+            "label": "Ticket & Voucher",
+            "path": "#"
+        },
+        {
+            "id": 11,
+            "group": 3,
+            "imageSource": "/Images/Services/img-18.jpg",
+            "text": "Paper",
+            "label": "Certificate",
+            "path": "#"
+        },
+        {
+            "id": 12,
+            "group": 3,
+            "imageSource": "/Images/Services/bookmark/bookmark.jpg",
+            "text": "Paper",
+            "label": "Bookmark",
+            "path": "#"
+        },
+        {
+            "id": 13,
+            "group": 3,
+            "imageSource": "/Images/Services/money_packet/money_packet_1.jpg",
+            "text": "Paper",
+            "label": "Money Packet",
+            "path": "#"
+        },
+        {
+            "id": 14,
+            "group": 3,
+            "imageSource": "/Images/Services/invitation/invitation_1.jpg",
+            "text": "Paper",
+            "label": "Invitation Card",
+            "path": "#"
+        }
+    ]
+}

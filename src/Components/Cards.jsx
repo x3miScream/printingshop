@@ -11,7 +11,7 @@ const Cards = (props) => {
         <div className='cards'>
             <div className='cards__container'>
                 <ul className='cards__items'>
-                    {cardsData.map((item, index) => { if(item.id !==currentCardId) return <CardItem key={item.id} id={item.id} src={settings.hostingBaseUrl + item.imageSource} text={item.text} label={item.label} path={settings.hostingBaseUrl + item.path}> </CardItem>}) }
+                    {cardsData.services.map((item, index) => { if(item.id !==currentCardId) return <CardItem key={item.id} id={item.id} src={settings.hostingBaseUrl + item.imageSource} text={item.text} label={item.label} path={settings.hostingBaseUrl + item.path}> </CardItem>}) }
                 </ul>
             </div>
         </div>

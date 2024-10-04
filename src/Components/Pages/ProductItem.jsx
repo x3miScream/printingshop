@@ -11,9 +11,9 @@ import '../../Styles/ProductItem.css';
 const ProductItem = (props) => {
     const location = useLocation();
     const [redirect, setRedirect] = useState('')
-    
+    console.log(cardsData);
     const id = (location.state === undefined || location.state === null ? -1 : location.state.id);
-    const productItem = cardsData.find((item) => {return item.id === id});
+    const productItem = cardsData.services.find((item) => {return item.id === id});
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -60,9 +60,9 @@ const ProductItem = (props) => {
                                     {item.titleDescription === undefined ? '' : <h6 className='text__xs m-b-s section-header'>{item.titleDescription}</h6>}
 
                                     {item.images === undefined ? '' : <ul className='product__item__add__info__image__section m-t-m'>
-                                    {item.images.map((imageItem, imageIndex) => { return <li key={imageIndex}>
+                                    {item.images.map((imageItem, imageIndex) => { return <li className='text-centre' key={imageIndex}>
                                         <img className='product__item__add__info__image' src={settings.hostingBaseUrl + imageItem.imageSrc}></img>
-                                        {imageItem.label === undefined ? '' : <h6 className='text__s'>{imageItem.label}</h6>}
+                                        {imageItem.label === undefined ? '' : <h6 className='text__xs product__item_add_info__label'>{imageItem.label}</h6>}
                                         {imageItem.description === undefined ? '' : <h6 className='text__xxs'>{imageItem.description}</h6>}
                                         
                                         </li> })}
