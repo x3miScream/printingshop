@@ -3,7 +3,7 @@
         {
             "id": 0,
             "group": 0,
-            "imageSource": "/Images/packaging/tall_house.jpg",
+            "imageSource": "/Images/Services/packaging/tall_house.jpg",
             "text": "Choose type of material, finishing, and of course printing",
             "label": "Packaging Box",
             "productDescriptionParagraphs": [
@@ -15,56 +15,65 @@
                 {
                     "title": "Check out some of our examples",
                     "images": [
-                        { "label": "", "imageSrc": "/Images/packaging/tall_house.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/tall_house_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/tall_box.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/tall_box_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/square_box.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/square_box_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/match_box.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/match_box_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/flower.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/flower_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_box.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_box_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_sandwich.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_sandwich_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_square.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_square_sketch.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_tent.jpg" },
-                        { "label": "", "imageSrc": "/Images/packaging/triangle_tent_sketch.jpg" }
+                        { "label": "", "imageSrc": "/Images/Services/packaging/tall_house.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/tall_house_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/tall_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/tall_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/square_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/square_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/match_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/match_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/flower.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/flower_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_box.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_box_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_sandwich.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_sandwich_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_square.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_square_sketch.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_tent.jpg" },
+                        { "label": "", "imageSrc": "/Images/Services/packaging/triangle_tent_sketch.jpg" }
                     ]
                 },{
                     "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
                     "images": [
                         { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
                         { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
-                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" },
                         { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
                     ]
                 },{
                     "title": "Select lamination",
                     "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
                     "images": [
-                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg" },
-                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg" },
-                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg" },
-                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg" }
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
                     ]
                 },{
                     "title": "Finishing",
-                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
                     "images": [
-                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg" },
-                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg" },
-                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg" }
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
                     ]
                 },{
                     "title": "Box Type",
                     "titleDescription": "",
                     "images": [
-                        { "label": "Window Cutout", "imageSrc": "/Images/box_type/window_cutout.jpg" },
-                        { "label": "Window Patching", "imageSrc": "/Images/box_type/window_patching.jpg" }
+                        { "label": "Window Cutout", "imageSrc": "/Images/box_type/window_cutout.jpg",
+                            "description": "A Window Cutout is a custom cut area on your box. It provides a display/preview of the content inside, lets the potential clientele have an initial feel of your product and still maintains safety of it." },
+                        { "label": "Window Patching", "imageSrc": "/Images/box_type/window_patching.jpg",
+                        "description": "Window Patching is similar to Window Cutout but a transparent plastic film is used as a cover for the window. This provides more security to the content of the box by still allowing customers see what is inside." }
                     ]
                 }
             ]
@@ -94,41 +103,37 @@
                         { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_7.jpg" },
                         { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_8.jpg" }
                     ]
-                },
-                {
+                },{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
                     "title": "Select lamination",
                     "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
                     "images": [
-                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg" },
-                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg" },
-                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg" },
-                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg" }
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
                     ]
-                },
-                {
+                },{
                     "title": "Finishing",
-                    "titleDescription": "Customize the appearance of your product by choosing an unique finishing design.",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
                     "images": [
-                        {
-                            "label": "Boxboard Grey Black",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        },
-                        {
-                            "label": "Gloss Art Card",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        },
-                        {
-                            "label": "Silver Foil",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        },
-                        {
-                            "label": "Corrugated Cardboard",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        }
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
                     ]
                 }
             ]
@@ -139,15 +144,83 @@
             "imageSource": "/Images/Services/img-18.jpg",
             "text": "Card",
             "label": "Flyer, Leaflet & Poster",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 3,
             "group": 1,
-            "imageSource": "/Images/Services/img-17.jpg",
+            "imageSource": "/Images/Services/brochure/brochure_1.jpg",
             "text": "Paper",
-            "label": "Brochure",
-            "path": "#"
+            "label": "`Brochure`",
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 4,
@@ -155,7 +228,41 @@
             "imageSource": "/Images/Services/paper_bag/paper_bag.jpg",
             "text": "Paper",
             "label": "Paper Bag",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 5,
@@ -163,15 +270,83 @@
             "imageSource": "/Images/Services/business_card/business_card.jpg",
             "text": "Paper",
             "label": "Business Card",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 6,
             "group": 1,
-            "imageSource": "/Images/Services/img-18.jpg",
+            "imageSource": "/Images/Services/letter_head/letter_head_1.jpg",
             "text": "Paper",
             "label": "Letterhead",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 7,
@@ -180,54 +355,37 @@
             "text": "Paper",
             "label": "Envelope",
             "path": "#",
-            "additionalInfo": [
-                {
-                    "title": "Check out some of our examples",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
                     "images": [
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_1.jpg" },
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_2.jpg" },
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_3.jpg" },
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_4.jpg" },
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_5.jpg" },
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_6.jpg" },
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_7.jpg" },
-                        { "label": "", "imageSrc": "/Images/Services/label_sticker/label_sticker_8.jpg" }
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
                     ]
-                },
-                {
+                },{
                     "title": "Select lamination",
                     "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
                     "images": [
-                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg" },
-                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg" },
-                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg" },
-                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg" }
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
                     ]
-                },
-                {
+                },{
                     "title": "Finishing",
-                    "titleDescription": "Customize the appearance of your product by choosing an unique finishing design.",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
                     "images": [
-                        {
-                            "label": "Boxboard Grey Black",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        },
-                        {
-                            "label": "Gloss Art Card",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        },
-                        {
-                            "label": "Silver Foil",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        },
-                        {
-                            "label": "Corrugated Cardboard",
-                            "imageSrc": "/Images/Services/img-18.jpg",
-                            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-                        }
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
                     ]
                 }
             ]
@@ -239,15 +397,83 @@
             "imageSource": "/Images/Services/bill_book/bill_book_1.jpg",
             "text": "Card",
             "label": "NCR Bill Book",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 9,
             "group": 2,
-            "imageSource": "/Images/Services/img-17.jpg",
+            "imageSource": "/Images/Services/folder/folder_1.jpg",
             "text": "Paper",
             "label": "Folder",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 10,
@@ -255,15 +481,83 @@
             "imageSource": "/Images/Services/voucher/voucher_1.jpg",
             "text": "Paper",
             "label": "Ticket & Voucher",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 11,
             "group": 3,
-            "imageSource": "/Images/Services/img-18.jpg",
+            "imageSource": "/Images/Services/certificate/certificate_1.jpg",
             "text": "Paper",
             "label": "Certificate",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 12,
@@ -271,7 +565,41 @@
             "imageSource": "/Images/Services/bookmark/bookmark.jpg",
             "text": "Paper",
             "label": "Bookmark",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 13,
@@ -279,7 +607,41 @@
             "imageSource": "/Images/Services/money_packet/money_packet_1.jpg",
             "text": "Paper",
             "label": "Money Packet",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         },
         {
             "id": 14,
@@ -287,7 +649,41 @@
             "imageSource": "/Images/Services/invitation/invitation_1.jpg",
             "text": "Paper",
             "label": "Invitation Card",
-            "path": "#"
+            "path": "#",
+            "additionalInfo": [{
+                    "title": "Choose paper type",
+                    "titleDescription": "Selecting a right paper type is crucial as it will be the body of the product.",
+                    "images": [
+                        { "label": "Matt White", "imageSrc": "/Images/paper_type/matte_white.jpg" },
+                        { "label": "Glossy White", "imageSrc": "/Images/paper_type/glossy.jpg" },
+                        { "label": "Corrugated Cardboard", "imageSrc": "/Images/paper_type/cardboard.jpg" }
+                    ]
+                },{
+                    "title": "Select lamination",
+                    "titleDescription": "Lamination provides an extra layer of proteciton making the products scratch and water resistant.",
+                    "images": [
+                        { "label": "Matt Lamination", "imageSrc": "/Images/lamination/lamination_1.jpg",
+                        "description": "Matt Lamination is a layer of protective, transparent, matt film over the surface to give the product a non-glossy appearance. It comes at an affordable price, yet gives a great feel upon contact." },
+                        { "label": "Gloss Lamination", "imageSrc": "/Images/lamination/lamination_2.jpg",
+                        "description": "Glossy Lamination is a clear layer of protective film over the surface of the product that brings up the colours of the item giving them a shiny appearance. It servers as a protective layer against scuffs, and scratches, and other alike types of damage." },
+                        { "label": "Gloss Water Base Varnish", "imageSrc": "/Images/lamination/lamination_3.jpg",
+                        "description": "Glossy Water-Based Varnish specially designed for those who seek for a glossy, shiny look at an affordable price." },
+                        { "label": "UV Varnish", "imageSrc": "/Images/lamination/lamination_4.jpg",
+                        "description": "UV Varnish is a layer of a glossy, liquid varnish cured under that undergoes a curing process under UV light that preservers the colours to stay shiny and vibrant." }
+                    ]
+                },{
+                    "title": "Finishing",
+                    "titleDescription": "Elevate the appearance of your custom product by selecting one or more of the provided below attractive features.",
+                    "images": [
+                        { "label": "Hot Stamp", "imageSrc": "/Images/finishing/finishing_hot_stamp.jpg",
+                            "description": "An emblem made of a metallic foil is applied and hot-pressed on top of the product that provides a luxurious appearance. We provide a wide range of colours." },
+                        { "label": "Spot UV", "imageSrc": "/Images/finishing/finishing_spot_uv.jpg",
+                        "description": "Spot UV is a clear-glossy finishing type that can be used to highlight the logo or an emblem on your product. It provides a different texture on a matt surface that results in difference if feel and appearance catching more attention."  },
+                        { "label": "Embossing", "imageSrc": "/Images/finishing/finishing_embossing.jpg",
+                        "description": "Embossing is a 3D pattern of your logo or text. It is achieved by pressing an image onto the surface of your product providing an elevated, 3D look to it."  }
+                    ]
+                }
+            ]
         }
     ]
 }

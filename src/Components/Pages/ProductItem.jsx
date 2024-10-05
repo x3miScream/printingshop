@@ -60,10 +60,10 @@ const ProductItem = (props) => {
                                     {item.titleDescription === undefined ? '' : <h6 className='text__xs m-b-s section-header'>{item.titleDescription}</h6>}
 
                                     {item.images === undefined ? '' : <ul className='product__item__add__info__image__section m-t-m'>
-                                    {item.images.map((imageItem, imageIndex) => { return <li className='text-centre' key={imageIndex}>
+                                    {item.images.map((imageItem, imageIndex) => { return <li key={imageIndex}>
                                         <img className='product__item__add__info__image' src={settings.hostingBaseUrl + imageItem.imageSrc}></img>
-                                        {imageItem.label === undefined ? '' : <h6 className='text__xs product__item_add_info__label'>{imageItem.label}</h6>}
-                                        {imageItem.description === undefined ? '' : <h6 className='text__xxs'>{imageItem.description}</h6>}
+                                        {imageItem.label === undefined ? '' : <h6 className='text__xs product__item_add_info__label m-t-s'>{imageItem.label}</h6>}
+                                        {imageItem.description === undefined ? '' : <h6 className='text__xxs product__item_add_info__decsription m-t-xs'>{imageItem.description}</h6>}
                                         
                                         </li> })}
                                     </ul>}
