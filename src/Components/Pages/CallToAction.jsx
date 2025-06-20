@@ -55,8 +55,8 @@ const CallToAction = (props) => {
                         <TextInput type='text' name='emailAddress' placeHolder='Email Address' className='text-input half-size' isRequired={true}></TextInput>
                         <TextInput type='text' name='companyName' placeHolder='Company Name (Optional)' className='text-input'></TextInput>
                         <TextInput type='text' name='quantity' placeHolder='Quantity' className='text-input'></TextInput>
-                        <TextInput type='text' name='openSize' placeHolder='Open Size (W x H)' className='text-input half-size'></TextInput>
-                        <TextInput type='text' name='closedSize' placeHolder='Closed Size (W x H)' className='text-input half-size'></TextInput>
+                        <TextInput type='text' name='openSize' placeHolder='Open Size (L x W x H)' className='text-input half-size'></TextInput>
+                        <TextInput type='text' name='closedSize' placeHolder='Closed Size (L x W x H)' className='text-input half-size'></TextInput>
                         <DropDownListGeneric id='printSideOption' name='printSideOption' dropDownOptions={printSideTypeOptions}></DropDownListGeneric>
                         <TextInput type='text' name='paperType' placeHolder='Paper Type' className='text-input'></TextInput>
                         <TextInput type='textarea' name='finishingType' placeHolder='Finishing (Lamination, Varnishing, etc.)' className='text-input half-size'></TextInput>
